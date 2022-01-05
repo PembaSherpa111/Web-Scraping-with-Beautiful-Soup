@@ -24,7 +24,7 @@ for x in range(1,51):
             if instock_availability.strip() == "In stock":
                 
                 title = dict.find("h3").find("a").attrs["title"]
-                Book["Title"] = (f"{title}")
+                Book["Title"] = title
                 
                 Book["Price"] = price_amount
 
